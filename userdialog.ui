@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserDialog</class>
+ <widget class="QDialog" name="UserDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1324</width>
+    <height>844</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonUserBack">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonUserBack{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButtonUserBack:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonUserBack:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUserInterfaceHeading">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>20</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>USER INTERFACE</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widgetborder" native="true">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>190</y>
+     <width>571</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widgetborder{
+border-image: url(:/images/border 1.png);
+}
+</string>
+   </property>
+   <widget class="QPushButton" name="NewUser">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>141</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#NewUser{
+border-radius: 25px;
+background-color: transparent;
+font: 700 bold 11pt &quot;Arial&quot;;
+border: 2px solid black;
+}
+
+
+#NewUser:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#NewUser:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>NEW USER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CurrentUser">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>140</y>
+      <width>141</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#CurrentUser{
+border-radius: 25px;
+background-color: transparent;
+font: 700 bold 11pt &quot;Arial&quot;;
+border: 2px solid black;
+}
+
+
+#CurrentUser:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#CurrentUser:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>CURRENT USER</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

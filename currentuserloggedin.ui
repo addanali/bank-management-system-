@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrentUserLoggedIn</class>
+ <widget class="QDialog" name="CurrentUserLoggedIn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1298</width>
+    <height>814</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>671</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>                                                   WELCOME </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>110</y>
+     <width>371</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 700 10pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CLICK ON THE FUNCTION YOU WOULD LIKE TO PERFORM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButton:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButton:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGOUT</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>200</y>
+     <width>951</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image: url(:/images/border 1.png);
+}</string>
+   </property>
+   <widget class="QPushButton" name="pushButtonCULWithdraw">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULWithdraw{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULWithdraw:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULWithdraw:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Withdraw</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULDeposit">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>100</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULDeposit{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULDeposit:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULDeposit:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Deposit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULBalance">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULBalance{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULBalance:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULBalance:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Balance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULTransactions">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULTransactions{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULTransactions:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULTransactions:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Transaction History</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULCheques">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>200</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULCheques{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULCheques:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULCheques:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Cheques</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULChequeHistory">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>300</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULChequeHistory{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULChequeHistory:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULChequeHistory:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Cheque History</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewUser</class>
+ <widget class="QDialog" name="NewUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1309</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>571</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>                                                         NEW USER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNewUserCreateAcc">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>540</y>
+     <width>211</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonNewUserCreateAcc{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonNewUserCreateAcc:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonNewUserCreateAcc:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Create Account</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNewUserBack">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonNewUserBack{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButtonNewUserBack:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonNewUserBack:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButtonNewUserC">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>500</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Current Account</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButtonNewUserS">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>500</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Savings Account</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>250</y>
+     <width>110</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEditNUPhoneNumber">
+      <property name="styleSheet">
+       <string notr="true">#lineEditNUPhoneNumber{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEditNewUserCNIC">
+      <property name="styleSheet">
+       <string notr="true">#lineEditNewUserCNIC{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEditNewUserNationality">
+      <property name="styleSheet">
+       <string notr="true">#lineEditNewUserNationality{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEditNewUserCity">
+      <property name="styleSheet">
+       <string notr="true">#lineEditNewUserCity{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>637</x>
+     <y>261</y>
+     <width>100</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>CNIC</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Nationality</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>City:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>260</y>
+     <width>110</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="NewUserLine">
+      <property name="styleSheet">
+       <string notr="true">#NewUserLine{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="NewUserAccNumberLine">
+      <property name="styleSheet">
+       <string notr="true">#NewUserAccNumberLine{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="NewUserPin">
+      <property name="styleSheet">
+       <string notr="true">#NewUserPin{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="NewUserDepositFunds">
+      <property name="styleSheet">
+       <string notr="true">#NewUserDepositFunds{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>260</y>
+     <width>111</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>User Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Account Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Set Pin Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Arial&quot;;
+
+
+
+color : rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Deposit Funds</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

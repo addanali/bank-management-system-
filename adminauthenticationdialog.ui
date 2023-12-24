@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminAuthenticationDialog</class>
+ <widget class="QDialog" name="AdminAuthenticationDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>278</width>
+    <height>223</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEditAdminName">
+       <property name="styleSheet">
+        <string notr="true">#lineEditAdminName{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditAdminPass">
+       <property name="styleSheet">
+        <string notr="true">#lineEditAdminPass{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAdminloginAuthenticate">
+       <property name="styleSheet">
+        <string notr="true">#pushButtonAdminloginAuthenticate{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :10px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonAdminloginAuthenticate:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminloginAuthenticate:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>AUTHENTICATE</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAdminForgotPass">
+       <property name="styleSheet">
+        <string notr="true">#pushButtonAdminForgotPass{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :10px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonAdminForgotPass:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminForgotPass:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>FORGOT PASSWORD</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAdminLoginBack">
+       <property name="styleSheet">
+        <string notr="true">#pushButtonAdminLoginBack{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :10px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonAdminLoginBack:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminLoginBack:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>BACK</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

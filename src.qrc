@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>border.png</file>
+        <file>border 1.png</file>
+        <file>BMS Logo.png</file>
+        <file>startdialog info border.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>BMS Logo.png</file>
+    </qresource>
+</RCC>

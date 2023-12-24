@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrentUser</class>
+ <widget class="QDialog" name="CurrentUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1296</width>
+    <height>809</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>20</y>
+     <width>781</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>CURRENT USER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCUBack">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonCUBack{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButtonCUBack:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCUBack:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>180</y>
+     <width>521</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+	border-image: url(:/images/border 1.png);
+
+}</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditCUAccPin">
+       <property name="styleSheet">
+        <string notr="true">#lineEditCUAccPin{
+	background-color: transparent;
+border: 2px solid black;
+border-radius: 10px;
+
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+font: 700 10pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Enter Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+font: 700 10pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Enter Your PIN :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEditCUUsername">
+       <property name="styleSheet">
+        <string notr="true">#lineEditCUUsername{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCUAuthenticate">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>330</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCUAuthenticate{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCUAuthenticate:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCUAuthenticate:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Authenticate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCUForgotPin">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCUForgotPin{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCUForgotPin:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCUForgotPin:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>FORGOT PIN</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

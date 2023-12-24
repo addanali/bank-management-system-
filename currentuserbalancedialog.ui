@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrentUserBalanceDialog</class>
+ <widget class="QDialog" name="CurrentUserBalanceDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1312</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>30</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>YOUR BALANCE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButton:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButton:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>190</y>
+     <width>421</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+	border-image: url(:/images/border 1.png);
+}</string>
+   </property>
+   <widget class="QTextEdit" name="textEditBalance">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#textEditBalance{
+	background-color: transparent;
+border-radius: 12px ;
+border: 2px solid black
+
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCULBalance">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>190</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButtonCULBalance{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonCULBalance:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonCULBalance:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

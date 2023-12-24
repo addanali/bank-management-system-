@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pushButtonDeleteAcc</class>
+ <widget class="QDialog" name="pushButtonDeleteAcc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1299</width>
+    <height>893</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>1021</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>                                                                          ADMINISTRATOR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBankAdminSearch">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>290</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonBankAdminSearch{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonBankAdminSearch:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonBankAdminSearch:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Check For User</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAdminDialogUserName">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lineEditAdminDialogUserName{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAdminBack">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonAdminBack{
+background-color:black;
+color:white;
+border-radius:10px;
+}
+#pushButtonAdminBack:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminBack:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditAdmin">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>380</y>
+     <width>291</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAdminSave">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>660</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonAdminSave{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonAdminSave:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminSave:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAdminDeleteAcc">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>660</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonAdminDeleteAcc{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonAdminDeleteAcc:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonAdminDeleteAcc:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete Account</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAdminDialogUserNameTransactions">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>250</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lineEditAdminDialogUserNameTransactions{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBankAdminTransactions">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>290</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonBankAdminTransactions{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonBankAdminTransactions:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonBankAdminTransactions:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Check For User</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditAdminTransactions">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>380</y>
+     <width>291</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBankAdminTransactionsClear">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>660</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonBankAdminTransactionsClear{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonBankAdminTransactionsClear:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonBankAdminTransactionsClear:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditAdminChequeHistory">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>380</y>
+     <width>291</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBankAdminCHClear">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>660</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonBankAdminCHClear{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonBankAdminCHClear:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonBankAdminCHClear:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAdminDialogUserNameCH">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>250</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lineEditAdminDialogUserNameCH{
+	background-color: transparent;
+border-radius: 10px ;
+border: 2px solid black
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBankAdminCH">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>290</y>
+     <width>291</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonBankAdminCH{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 11pt &quot;Arial&quot;;
+}
+
+
+#pushButtonBankAdminCH:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonBankAdminCH:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Check For User</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>340</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 12pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>ACCOUNT DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>340</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 12pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>TRANSACTION HISTORY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>340</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 12pt;
+font-family: &quot;Arial&quot;, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>CHEQUE HISTORY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonManageAdmins">
+   <property name="geometry">
+    <rect>
+     <x>1129</x>
+     <y>20</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonManageAdmins{
+color: rgb(0, 0, 0);
+border-background: transparent;
+border-radius :12px;
+border: 2px solid black;
+font: 700 0pt &quot;Arial&quot;;
+}
+
+
+#pushButtonManageAdmins:hover{
+
+background-color:rgb(85, 170, 255);
+}
+
+#pushButtonManageAdmins:pressed{
+	background-color: rgb(0, 85, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Add/Remove Admins</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>90</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font-weight: bold;
+font-size: 10pt;
+font-family: &quot;Arial&quot;, sans-serif;
+
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>Note: Please enter usernames exactly as the user set them.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
